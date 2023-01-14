@@ -237,6 +237,10 @@ input:checked + .slider:before {
 @media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
+	body .mosque img,
+	body .lattern img {
+		width: 90%;
+	}
 }
 @media (max-width: 768px) {
 	body #light .top {
@@ -253,10 +257,6 @@ input:checked + .slider:before {
 	}
 	body .lattern {
 		top: 96px;
-	}
-	body .mosque img,
-	body .lattern img {
-		width: 90%;
 	}
 }
 @media (max-width: 576px) {
